@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Shopping_Application</string>
+    <string name="start_shopping">Start shopping!</string>
+    <string name="title_activity_shopping_activity">Shopping_activity</string>
+    <string name="choose_products">Choose products:</string>
+    <string name="submit">Add</string>
+    <string name="no_one_selected">Select at least one product!</string>
+    <string name="order_label">Your order:</string>
+    <string name="kind_of_cheese_1">Chaddar</string>
+    <string name="kind_of_cheese_2">Camembert</string>
+    <string name="kind_of_cheese_3">Mozzarella</string>
+    <string name="kind_of_cheese_4">Parmezan</string>
+    <string name="kind_of_cheese_5">Provolone</string>
+    <string name="kind_of_cheese_6">Mascaprone</string>
+    <string name="kind_of_cheese_7">Manchego</string>
+    <string name="kind_of_cheese_8">Feta</string>
+    <string name="kind_of_cheese_9">Gruyere</string>
+    <string name="kind_of_cheese_10">Monterey Jack</string>
+    <string name="finish_activity">Finish</string>
+    <string name="save">Save</string>
+</resources>

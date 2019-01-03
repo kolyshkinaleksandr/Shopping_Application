@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/scroll_boxes"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/page_background">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Shopping_activity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_products"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <CheckBox
+        android:id="@+id/box_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:text="@string/kind_of_cheese_1"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/box_one"
+        android:text="@string/kind_of_cheese_2"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_two"
+        android:text="@string/kind_of_cheese_3"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_three"
+        android:text="@string/kind_of_cheese_4"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_four"
+        android:text="@string/kind_of_cheese_5"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_five"
+        android:text="@string/kind_of_cheese_6"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_six"
+        android:text="@string/kind_of_cheese_7"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_seven"
+        android:text="@string/kind_of_cheese_8"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_eight"
+        android:text="@string/kind_of_cheese_9"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <CheckBox
+        android:id="@+id/box_ten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/box_nine"
+        android:text="@string/kind_of_cheese_10"
+        android:onClick="onCheckBoxClick"
+        android:textColor="@color/order_page_font"
+        android:textSize="@dimen/label_size"/>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_below="@id/box_ten"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:background="@drawable/button_ahape"
+        android:textColor="@color/font_color"
+        android:layout_marginBottom="20dp" />
+
+</RelativeLayout>
+</ScrollView>

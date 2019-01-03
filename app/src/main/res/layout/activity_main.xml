@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/vertical_margin"
+    android:paddingLeft="@dimen/horizontal_margin"
+    android:paddingRight="@dimen/horizontal_margin"
+    android:paddingBottom="@dimen/vertical_margin"
+    android:background="@drawable/first_page_backgrn"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/order_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:text="@string/order_label"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_below="@id/order_label"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_1"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_2"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_3"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_4"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_5"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_6"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_7"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font"/>
+
+    <TextView
+        android:id="@+id/value_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_8"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font" />
+
+    <TextView
+        android:id="@+id/value_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/value_9"
+        android:visibility="invisible"
+        android:textSize="@dimen/label_size"
+        android:textColor="@color/order_page_font" />
+
+    <Button
+        android:id="@+id/first_activity_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_shopping"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/label_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_ahape"
+        android:textColor="@color/font_color"
+        android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/finish_activity_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_ahape"
+            android:onClick="finishActivity"
+            android:text="@string/finish_activity"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/label_size"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible" />
+
+</RelativeLayout>
